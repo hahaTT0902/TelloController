@@ -24,3 +24,8 @@
 
 ```bash
 pip install -r requirements.txt
+```
+或者运行
+```bash
+pip install pygame
+pip install djitellopy
