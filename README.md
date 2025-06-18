@@ -1,6 +1,6 @@
 # Tello 无人机键盘控制器
 
-这是一个使用 `pygame` 和 `djitellopy` 库开发的简单图形界面程序，用于通过键盘控制 DJI Tello 无人机的飞行方向。
+这是一个使用 `OpenCV` 和 `djitellopy` 库开发的简单图形界面程序，用于通过键盘控制 DJI Tello 无人机的飞行方向。
 
 ## ✈️ 功能简介
 
@@ -15,6 +15,7 @@
   - `Q`: 逆时针旋转
   - `E`: 顺时针旋转
   - `L`: 降落并退出程序
+  - `SPACEBAR`: 开启人脸跟踪功能
 - 飞行前自动起飞
 - 实时显示电量（控制台）
 
@@ -27,5 +28,5 @@ pip install -r requirements.txt
 ```
 或者运行
 ```bash
-pip install pygame
+pip install opencv-python
 pip install djitellopy
